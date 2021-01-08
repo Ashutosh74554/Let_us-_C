@@ -6,7 +6,7 @@ void main()
 	int a;
 	printf("Enter the angle: ");
 	scanf("%f", &a);
-	a*=(3.1415/180);
+	a*=(3.1415/180.0);
 	printf("Sine of angle is: %f", sin(a));
 	printf("\nCosine of angle is: %f", cos(a));
 	printf("\nTangent of angle is: %f", tan(a));
