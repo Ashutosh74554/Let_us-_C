@@ -30,6 +30,6 @@ void final(int arr[], int n)
 		}
 	}
 	int range;
-	range=arr[n]-arr[0];
+	range=arr[n-1]-arr[0];
 	printf("Range = %d", range);
 }
